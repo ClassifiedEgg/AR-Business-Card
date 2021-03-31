@@ -1,0 +1,29 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Ch22_body
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Ch22_1001_Normal.png
+map_Kd Ch22_1001_Diffuse.png
+map_Ks Ch22_1001_Specular.png
+map_Ns Ch22_1001_Glossiness.png
+
+newmtl Ch22_hair
+Ns 700.497007
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Ch22_1002_Normal.png
+map_Kd Ch22_1002_Diffuse.png
+map_d Ch22_1002_Diffuse.png

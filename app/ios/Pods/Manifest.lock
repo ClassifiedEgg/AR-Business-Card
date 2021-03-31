@@ -1,0 +1,54 @@
+PODS:
+  - Permission-Camera (2.2.2):
+    - RNPermissions
+  - React (0.59.9):
+    - React/Core (= 0.59.9)
+  - react-native-camera (3.43.1):
+    - react-native-camera/RCT (= 3.43.1)
+    - react-native-camera/RN (= 3.43.1)
+    - React/Core
+  - react-native-camera/RCT (3.43.1):
+    - React/Core
+  - react-native-camera/RN (3.43.1):
+    - React/Core
+  - React/Core (0.59.9):
+    - yoga (= 0.59.9.React)
+  - RNFS (2.16.6):
+    - React
+  - RNPermissions (2.2.2):
+    - React/Core
+  - yoga (0.59.9.React)
+
+DEPENDENCIES:
+  - Permission-Camera (from `../node_modules/react-native-permissions/ios/Camera.podspec`)
+  - React (from `../node_modules/react-native`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
+  - RNFS (from `../node_modules/react-native-fs`)
+  - RNPermissions (from `../node_modules/react-native-permissions`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  Permission-Camera:
+    :path: "../node_modules/react-native-permissions/ios/Camera.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  Permission-Camera: 5d2aaf95592660b6dcb5e8d1d90ed5d0156cad02
+  React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
+  react-native-camera: cc54658a87a01898beb489c43657cb7efed90fcb
+  RNFS: 2bd9eb49dc82fa9676382f0585b992c424cd59df
+  RNPermissions: b3809b30c217fa230f94a5a17d9d0f322ceec06f
+  yoga: 03ff42a6f223fb88deeaed60249020d80c3091ee
+
+PODFILE CHECKSUM: 3596aa9467de7e68a7f7b0a6a245a73473ead704
+
+COCOAPODS: 1.10.1

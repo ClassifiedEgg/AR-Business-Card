@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'seminar2' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for seminar2
+  
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  target 'seminar2Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
